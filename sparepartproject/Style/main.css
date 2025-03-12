@@ -1,0 +1,170 @@
+﻿@font-face {
+    font-family: monsterrat;
+    src: url('../Font/Montserrat-SemiBold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: monsterrat-normal;
+    src: url('../Font/Montserrat-Regular.ttf');
+}
+
+
+body {
+    font-family: monsterrat;
+}
+
+
+.navbar-custom {
+    background-color: #23369a;
+    font-family: monsterrat;
+    height: auto;
+    width: 100%;
+}
+
+.navbar-expand-md {
+    font-family: monsterrat;
+    font-size:14px;
+}
+
+    
+        .navbar-custom .navbar-nav li {
+    font-family: monsterrat;
+}
+
+
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+/* for dropdown only - change the color of droodown */
+.navbar-custom .dropdown-menu {
+    background-color: #1A247E;
+}
+
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+
+    font-family: monsterrat;
+    font-size: 14px;
+}
+
+
+.navbar-nav li {
+    margin-right: 20px;
+}
+
+    .navbar-nav li a {
+        font-weight: 500;
+    }
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #333333;
+    background-color: rgba(255,255,255,.5);
+}
+
+.breadcrumb {
+    width: 100%;
+    height: 40px;
+    /*box-shadow: 1px 1px 10px 0 rgba(60,33,36, 0.1);*/
+    /* background: rgba(226, 226, 226, 1);
+    background: -moz-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(232, 232, 232, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226, 226, 226, 1)), color-stop(100%, rgba(232, 232, 232, 1)));
+    background: -webkit-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(232, 232, 232, 1) 100%);
+    background: -o-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(232, 232, 232, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(232, 232, 232, 1) 100%);
+    background: linear-gradient(to bottom, rgba(226, 226, 226, 1) 0%, rgba(232, 232, 232, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#e8e8e8', GradientType=0); */
+}
+
+    .breadcrumb .container a {
+        margin: 0;
+    }
+
+    .breadcrumb .container li {
+        float: right;
+        text-decoration: none;
+        list-style: none;
+        margin-right: 8px;
+        overflow: hidden;
+        font-family: monsterrat;
+        font-size: 11px;
+        font-weight: 400;
+        padding: 0
+    }
+
+    .breadcrumb .container a {
+        color: rgb(107, 105, 105);
+        text-decoration: none;
+    }
+
+        .breadcrumb .container a:hover {
+            color: black;
+        }
+
+.judul {
+    font-family: monsterrat;
+    font-size: 22px;
+    color: black;
+    float:left;
+}
+
+.btn-outline-primary {
+    width: 120px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family:monsterrat;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.box {
+    /*border: 1px solid rgba(32,33,36, 0.1);*/
+    border-radius: 8px;
+    /*box-shadow: 1px 1px 10px 0 rgba(32,33,36, 0.1);*/
+    /*padding: 19px 19px;*/
+    overflow:hidden;
+    width:100%;
+
+}
+
+.garisJudul {
+    width: 100px;
+    height:3px;
+    margin-top:5px;
+    margin-left:1px;
+    background-color: #23369a;
+    margin-right:20px;
+}
+
+/*.footer {
+    margin-top:40px;
+    width: 100%;
+    height: 20px;
+    background-color: #1A237E;
+    font-family:monsterrat;
+    font-size:small;
+    color:white;
+}*/
+
+
+
+#sticky-footer {
+    flex-shrink:inherit;
+}
+
